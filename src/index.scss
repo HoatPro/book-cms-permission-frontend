@@ -1,0 +1,11 @@
+body {
+  font-size: 16px;
+}
+
+@media only screen and (min-width: 768px) {
+  .large-modal {
+    .ant-modal {
+      width: 70% !important;
+    }
+  }
+}
